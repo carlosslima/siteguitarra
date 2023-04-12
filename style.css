@@ -1,0 +1,58 @@
+header{
+	background:#dbdb44;
+	font-size: 25px;
+	font-family:Fantasy;
+	filter: drop-shadow(2px 2px 1px white);
+	padding: 10px 0;
+	text-align: center;
+	text-decoration-style: solid;
+	text-shadow: 1px 1px 1px white;
+}
+body{
+	background:black;
+
+}
+
+ul{
+	display: inline;
+}
+.topo{
+	 position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+nav{
+    position: absolute;
+    margin: 0 0 15px;
+    right: 0;
+}
+nav a{
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none
+}
+.titulo1{
+	color: white;
+	text-align: center;
+	font-size: 23px;
+	font-family: Fantasy;
+	padding: 15px 0;
+	text-shadow:1px 1px 1px #dbdb44;
+}
+.quemsomos{
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 16px
+}
+.titulo1{
+	background:#61615d;
+}
+.imagem{
+	text-align: center;
+}
+#jimi{
+	width:50%
+}
