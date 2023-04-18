@@ -33,6 +33,11 @@ nav a{
 	font-size: 18px;
 	text-decoration: none
 }
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
 .titulo1{
 	color: white;
 	text-align: center;
@@ -55,4 +60,98 @@ nav a{
 }
 #jimi{
 	width:50%
+}
+.login{
+	color: white;
+	padding: 30px 0;
+	display: inline-block;
+	font-family: arial black;
+	filter: drop-shadow(1px 1px 1px black);
+}
+.input-padrao{
+	position: relative;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 30;
+    border-radius: 6px;
+    border-style: none;
+
+}
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+form{
+	margin: 20px 0
+}
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 20px
+}
+.checkbox{
+	margin: 20px 0;
+}
+.enviar{
+	width: 30%;
+	padding:15px 0;
+	border-radius: 5px;
+	border: none;
+	filter: drop-shadow(1px 1px 1px white);
+	background: limegreen;
+	color: white;
+	font-weight: bolder;
+	transition: 1s all;
+	cursor: pointer;
+
+}
+.enviar:hover{
+	background: #1bf752;
+	transform: scale(1.2);
+}
+footer{
+	background: #dbdb44;
+	color: black;
+	text-align: center;
+	margin: 20px 0 0;
+	filter: drop-shadow(1px 1px 1px white);
+}
+.produtos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+  color: white
+}
+.produtos li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+    
+}
+.produtos li:hover{
+border-color:#dbdb44;
+filter: drop-shadow(1px 1px 0px );
+}
+.produtos li:active{
+  border-color: #088C19;
+}
+.produtos li:hover h2{
+  font-size: 34px;
+}
+.produtos h2{
+  font-size: 30px;
+}
+#lespaul{
+	width: 83%
+
+}
+#sg{
+	width: 85%
 }
